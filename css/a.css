@@ -1,0 +1,63 @@
+/* 
+   Author : Umar Zaman
+   Theme : Food Order Website Admin;
+   Version : 1.0;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* CSS for menu */
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #c09597;
+}
+.menu ul li a:hover{
+    
+    color: #944a51;
+}
+/* END of CSS for Menu */
+
+/* CSS for Main Content */
+.main-content{
+    padding: 3% 0;
+    background-color: #f1f2f6;
+}
+.col-md-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* End of CSS for Main Content */
+
+/* CSS for footer  */
+.footer{
+    background-color: #683135;
+    color: aliceblue;
+}
